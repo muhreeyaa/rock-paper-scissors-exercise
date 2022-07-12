@@ -9,3 +9,13 @@
 
 
 print("Rock, Paper, Scissors, Shoot!")
+
+
+## RPS Stuff Below
+```
+python game.py
+````
+
+``` sh
+python game.py
+````
