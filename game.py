@@ -1,9 +1,17 @@
 # this is the "game.py" file...
 
+
 print("Let's play a game of Rock, Paper, Scissors!")
+
 
 # USER INPUTS
 
+
+user_choice = input("Please choose ('rock', 'paper', 'scissors'): ")
+
+# you chose: 'rock'
+print("You chose:", user_choice)
+print(f"You chose: '{user_choice}'")
 
 # VALIDATE USER INPUTS
 
