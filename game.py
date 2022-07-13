@@ -8,6 +8,7 @@ print("Let's play a game of Rock, Paper, Scissors!")
 
 
 user_choice = input("Please choose ('rock', 'paper', 'scissors'): ")
+user_choice = user_choice.lower()
 
 # you chose: 'rock'
 print("You chose:", user_choice)
@@ -15,15 +16,32 @@ print(f"You chose: '{user_choice}'")
 
 # VALIDATE USER INPUTS
 
+valid_options = ["rock", "paper", "scissors"]
+
+#breakpoint()
+
+# if user_choice in valid_options:
+#   # ALL THE STUFF INDENTED
+#  pass
+# else:
+# print("OOPS INVALID, TRY AGAIN")
+
+
+
+if user_choice not in valid_options:
+    print("OOPS INVALID, TRY AGAIN")
+    exit() # quit ()
 
 # COMPUTER CHOICE
 
+
 #import random
 
-valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
 print("computer chose:", computer_choice)
 
+
+# adapted from code shared in slack
 if user_choice == computer_choice:
     print("it's a tie!")
 elif user_choice == "rock":
