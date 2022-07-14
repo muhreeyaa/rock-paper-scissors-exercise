@@ -19,7 +19,7 @@
     ```
 
 4. Download and clone this repository onto your desktop, setup ```"game.py"``` file.
-5. Open Terminal and run the game
-```
-python game.py
-```
+5. Open Terminal and run the game 
+    ```
+    python game.py
+    ```
