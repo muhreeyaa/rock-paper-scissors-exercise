@@ -1,16 +1,17 @@
 # "Rock, Paper, Scissors" Exercise
 
 ## Set up 
-1. Open Terminal see which beriso make sure you are running the latest version of Python by entering the below command
+1. Open Terminal see which make sure you are running the latest version of Python by entering the below command
 
     ```
     python --version
     ```
 
 
-2. Create and activate a virtual environment
+2. Create and activate a new virtual environment
     ```
     conda create -n rock-paper-scissor-exercise python=3.8
+    conda activate rock-paper-scissors-exercise
     ```
 
 3. Install package dependencies
